@@ -127,6 +127,7 @@ main {
 /* what i do style */
 .what-i-do {
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .skills-container {
@@ -153,6 +154,11 @@ main {
 }
 
 /* resume styels */
+.resume .resume-title{
+    font-size: 30px;
+  
+
+}
 
 .resume-content {
     display: flex;
@@ -185,4 +191,25 @@ main {
 .re-btn{
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 100px;
+}
+/* contact styels */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
 }
